@@ -21,7 +21,7 @@ const MainHeader = (props) => {
             position="fixed"
             sx={{
                 width: `calc(100% - ${drawerWidth}px)`,
-                mr: `${drawerWidth}px`,
+                right: 'auto',
                 backgroundColor: '#252424',
                 height: '5rem',
                 justifyContent: 'center'

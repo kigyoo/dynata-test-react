@@ -1,5 +1,5 @@
 import { Menu } from '@mui/icons-material';
-import { AppBar, Box, Button, CssBaseline, IconButton, Toolbar, Typography } from '@mui/material';
+import { AppBar, Box, Button, IconButton, Toolbar, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 const navItems = [
@@ -13,7 +13,6 @@ const AdminLayout = (props) => {
 
     return (
         <Box sx={{ display: 'flex' }}>
-            <CssBaseline />
             <AppBar
                 component="nav"
                 sx={{

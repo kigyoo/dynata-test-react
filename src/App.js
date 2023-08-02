@@ -9,6 +9,7 @@ import AdminCategoriesPage from './pages/admin/AdminCategoriesPage';
 import AdminHomePage from './pages/admin/AdminHomePage';
 import AdminProductsPage from './pages/admin/AdminProductsPage';
 import AdminRoot from './pages/admin/AdminRoot';
+import { CssBaseline } from '@mui/material';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
+      <CssBaseline />
       <RouterProvider router={router} />
       <ToastContainer
         position="bottom-left"
